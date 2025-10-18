@@ -3,6 +3,7 @@ import { Hero } from "@/components /hero";
 import CannabisSection from "@/components /cannabisSection";
 import { EbookSection } from "@/components /ebookSection";
 import { EbookLearningSection } from "@/components /ebookLearningSection"
+import { EbookDifferenceSection } from "@/components /ebookDifferenceSection";
 
 export default function Home() {
   return (
@@ -11,8 +12,7 @@ export default function Home() {
       <CannabisSection />
       <EbookSection />
       <EbookLearningSection />
-
-      
+      <EbookDifferenceSection />
     </main>
     
   );
