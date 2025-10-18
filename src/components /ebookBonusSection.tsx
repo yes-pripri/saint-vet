@@ -9,8 +9,7 @@ export function EbookBonusSection() {
         🎁 Bônus Exclusivos
       </h2>
       <p className="text-gray-600 mb-10">
-        (inclusos gratuitamente nesta oferta)
-      </p>
+      </p>n
 
       <div className="max-w-4xl mx-auto flex flex-col gap-4">
         <div className="bg-white border border-yellow-200 rounded-xl p-5 flex items-start justify-between shadow-sm hover:shadow-md transition">

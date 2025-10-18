@@ -5,6 +5,7 @@ import { EbookSection } from "@/components /ebookSection";
 import { EbookLearningSection } from "@/components /ebookLearningSection"
 import { EbookDifferenceSection } from "@/components /ebookDifferenceSection";
 import { EbookBonusSection } from "@/components /ebookBonusSection";
+import { SpecialOffer } from "@/components /specialOffer";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <EbookLearningSection />
       <EbookDifferenceSection />
       <EbookBonusSection />
+      <SpecialOffer />
     </main>
     
   );

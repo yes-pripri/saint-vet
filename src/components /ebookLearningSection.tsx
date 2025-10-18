@@ -9,7 +9,6 @@ export function EbookLearningSection() {
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-        {/* Fundamentos essenciais */}
         <div className="bg-green-50 border border-green-100 rounded-xl p-6 text-left shadow-sm hover:shadow-md transition">
           <div className="flex items-center justify-center w-10 h-10 bg-green-100 rounded-lg mb-4">
             <Leaf className="text-green-600" size={22} />
@@ -24,7 +23,6 @@ export function EbookLearningSection() {
           </ul>
         </div>
 
-        {/* Aplicação prática */}
         <div className="bg-green-50 border border-green-100 rounded-xl p-6 text-left shadow-sm hover:shadow-md transition">
           <div className="flex items-center justify-center w-10 h-10 bg-green-100 rounded-lg mb-4">
             <Heart className="text-green-600" size={22} />
@@ -39,7 +37,6 @@ export function EbookLearningSection() {
           </ul>
         </div>
 
-        {/* Aspectos legais e éticos */}
         <div className="bg-green-50 border border-green-100 rounded-xl p-6 text-left shadow-sm hover:shadow-md transition">
           <div className="flex items-center justify-center w-10 h-10 bg-green-100 rounded-lg mb-4">
             <Scale className="text-green-600" size={22} />
@@ -54,7 +51,6 @@ export function EbookLearningSection() {
           </ul>
         </div>
 
-        {/* Integração terapêutica e inovação */}
         <div className="bg-green-50 border border-green-100 rounded-xl p-6 text-left shadow-sm hover:shadow-md transition">
           <div className="flex items-center justify-center w-10 h-10 bg-green-100 rounded-lg mb-4">
             <Activity className="text-green-600" size={22} />

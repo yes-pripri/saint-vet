@@ -10,7 +10,6 @@ export function EbookDifferenceSection() {
       </h2>
 
       <div className="max-w-4xl mx-auto flex flex-col gap-4">
-        {/* Item 1 */}
         <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
           <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
           <p className="text-gray-800 text-base leading-relaxed">
@@ -19,7 +18,6 @@ export function EbookDifferenceSection() {
           </p>
         </div>
 
-        {/* Item 2 */}
         <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
           <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
           <p className="text-gray-800 text-base leading-relaxed">
@@ -27,15 +25,13 @@ export function EbookDifferenceSection() {
           </p>
         </div>
 
-        {/* Item 3 */}
         <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
           <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
           <p className="text-gray-800 text-base leading-relaxed">
             Linguagem simples, didática e direta — feita para tutores e profissionais.
           </p>
         </div>
-
-        {/* Item 4 */}
+        
         <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
           <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
           <p className="text-gray-800 text-base leading-relaxed">
