@@ -4,6 +4,7 @@ import CannabisSection from "@/components /cannabisSection";
 import { EbookSection } from "@/components /ebookSection";
 import { EbookLearningSection } from "@/components /ebookLearningSection"
 import { EbookDifferenceSection } from "@/components /ebookDifferenceSection";
+import { EbookBonusSection } from "@/components /ebookBonusSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <EbookSection />
       <EbookLearningSection />
       <EbookDifferenceSection />
+      <EbookBonusSection />
     </main>
     
   );
