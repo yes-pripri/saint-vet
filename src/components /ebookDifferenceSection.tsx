@@ -1,49 +1,59 @@
-
 import React from "react";
-import { CheckCircle } from "lucide-react";
+import Image from "next/image";
+import { CheckCircle2 } from "lucide-react";
+import nicoleImg from "../../public/nicole.png"
 
 export function EbookDifferenceSection() {
   return (
-    <section className="bg-green-50 py-16 px-6 text-center">
-      <h2 className="text-3xl font-bold text-gray-900 mb-10">
-        <span className="text-cyan-500">💎</span> Por que este eBook é diferente
-      </h2>
-
-      <div className="max-w-4xl mx-auto flex flex-col gap-4">
-        <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
-          <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
-          <p className="text-gray-800 text-base leading-relaxed">
-            <strong>Escrito pela Dra. Nicoli Benedito</strong>, médica veterinária endocanabinologista e fundadora da 
-            Saint Veterinária, referência nacional em medicina integrativa e cannabis veterinária.
-          </p>
-        </div>
-
-        <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
-          <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
-          <p className="text-gray-800 text-base leading-relaxed">
-            Conteúdo baseado em ciência e prática clínica real.
-          </p>
-        </div>
-
-        <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
-          <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
-          <p className="text-gray-800 text-base leading-relaxed">
-            Linguagem simples, didática e direta — feita para tutores e profissionais.
-          </p>
-        </div>
-        
-        <div className="bg-white rounded-xl border border-green-100 shadow-sm p-5 flex items-start gap-3 text-left hover:shadow-md transition">
-          <CheckCircle className="text-green-600 flex-shrink-0 mt-1" size={22} />
-          <p className="text-gray-800 text-base leading-relaxed">
-            Material ético, confiável e seguro, que separa fatos de mitos.
-          </p>
-        </div>
+    <section className="bg-lime-50 py-16 px-6 flex flex-col lg:flex-row items-center justify-center gap-10">
+      <div className="flex-shrink-0">
+        <Image
+          src="/nicole.png"
+          alt="Foto da autora"
+          width={280}
+          height={280}
+          className="rounded-2xl shadow-lg object-cover"
+        />
       </div>
 
-      <p className="text-green-800 font-semibold mt-10 max-w-3xl mx-auto leading-relaxed">
-        Este não é "mais um eBook" — é um guia de transformação para quem acredita em um
-        cuidado mais natural, consciente e baseado em evidências.
-      </p>
+      <div className="max-w-2xl">
+        <h2 className="text-black text-2xl md:text-3xl font-semibold text-center lg:text-left mb-8 flex items-center justify-center lg:justify-start gap-2">
+          💎 Por que este eBook é diferente
+        </h2>
+
+        <div className="space-y-4">
+          {[
+            {
+              bold: "Escrito pela Dra. Nicoli Benedito,",
+              text: "médica veterinária endocanabinologista e fundadora da Saint Veterinária, referência nacional em medicina integrativa e cannabis veterinária.",
+            },
+            {
+              text: "Conteúdo baseado em ciência e prática clínica real.",
+            },
+            {
+              text: "Linguagem simples, didática e direta — feita para tutores e profissionais.",
+            },
+            {
+              text: "Material ético, confiável e seguro, que separa fatos de mitos.",
+            },
+          ].map((item, i) => (
+            <div
+              key={i}
+              className="flex items-start gap-3 bg-white shadow-sm rounded-xl p-4 border border-green-100"
+            >
+              <CheckCircle2 className="text-green-600 flex-shrink-0 mt-1" />
+              <p className="text-gray-800">
+                {item.bold && <strong>{item.bold}</strong>} {item.text}
+              </p>
+            </div>
+          ))}
+        </div>
+
+        <p className="text-green-800 font-medium text-center lg:text-left mt-8">
+          Este não é "mais um eBook" — é um guia de transformação para quem acredita em um cuidado
+          mais natural, consciente e baseado em evidências.
+        </p>
+      </div>
     </section>
   );
 }

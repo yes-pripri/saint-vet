@@ -4,12 +4,12 @@ import { Clock, CheckCircle2, BadgeCheck, Sparkles, Video, ScrollText, MonitorSm
 
 export function SpecialOffer() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-[#0a0f0a] text-white px-4 py-16">
+    <section className="min-h-screen flex flex-col items-center justify-center bg-lime-50 text-white px-4 py-16">
       <h2 className="text-2xl md:text-3xl font-semibold flex items-center gap-2 text-yellow-400 mb-8">
         <span>💰</span> Oferta Especial de Lançamento
       </h2>
 
-      <div className="border border-yellow-600 bg-[#0d0f0d] rounded-xl p-8 w-full max-w-xl text-center shadow-lg">
+      <div className="border border-yellow-600 bg-green-700 rounded-xl p-8 w-full max-w-xl text-center shadow-lg">
         <p className="flex items-center justify-center text-sm text-gray-300 mb-6">
           <Clock className="w-4 h-4 mr-2 text-yellow-400" />
           Oferta válida somente até domingo, <span className="font-semibold text-white ml-1">24/10, às 23h59</span>
@@ -23,7 +23,7 @@ export function SpecialOffer() {
           </p>
         </div>
 
-        <div className="bg-[#0f2017] rounded-lg p-6 text-left mb-8 space-y-3">
+        <div className="bg-green-700 rounded-lg p-6 text-left mb-8 space-y-3">
           <h3 className="text-center font-semibold mb-4 text-gray-100">
             O que está incluso:
           </h3>
@@ -55,7 +55,7 @@ export function SpecialOffer() {
           </ul>
         </div>
 
-        <button className="w-full bg-green-500 hover:bg-green-600 text-black font-semibold py-3 rounded-lg transition-all">
+        <button className="w-full bg-green-50 hover:bg-green-200 text-black font-semibold py-3 rounded-lg transition-all">
           COMPRAR AGORA – R$89,00
         </button>
 

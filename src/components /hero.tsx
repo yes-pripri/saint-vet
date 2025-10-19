@@ -5,9 +5,9 @@ import { Cannabis } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="flex flex-col lg:flex-row items-center justify-between gap-10 px-6 py-16 bg-white">
+    <section className="flex flex-col lg:flex-row items-center justify-between gap-10 px-6 py-16 bg-lime-50">
       <div className="flex-1 max-w-xl">
-        <span className="inline-flex items-center gap-2 text-sm font-semibold text-green-600 bg-green-50 px-3 py-1 rounded-full">
+        <span className="inline-flex items-center gap-2 text-sm font-semibold text-green-600 bg-green-200 px-3 py-1 rounded-full">
           <Cannabis className="w-5 h-5 text-green-600" />
           Medicina Integrativa Veterinária
         </span>

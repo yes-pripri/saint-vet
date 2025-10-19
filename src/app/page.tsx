@@ -6,6 +6,8 @@ import { EbookLearningSection } from "@/components /ebookLearningSection"
 import { EbookDifferenceSection } from "@/components /ebookDifferenceSection";
 import { EbookBonusSection } from "@/components /ebookBonusSection";
 import { SpecialOffer } from "@/components /specialOffer";
+import { EbookFAQSection } from "@/components /ebookFAQSection";
+import { EbookCTASection } from "@/components /ebookCTASection";
 
 export default function Home() {
   return (
@@ -17,6 +19,8 @@ export default function Home() {
       <EbookDifferenceSection />
       <EbookBonusSection />
       <SpecialOffer />
+      <EbookFAQSection />
+      <EbookCTASection />
     </main>
     
   );
