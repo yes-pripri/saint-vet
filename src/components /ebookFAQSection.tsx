@@ -6,7 +6,7 @@ import { useState } from "react";
 import { ChevronDown, ChevronUp, MessageCircleQuestion } from "lucide-react";
 
 export function EbookFAQSection() {
-  const [openIndex, setOpenIndex] = useState<number | null>(0);
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
   const faqs = [
     {
