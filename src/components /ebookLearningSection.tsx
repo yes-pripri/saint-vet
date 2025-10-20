@@ -3,9 +3,13 @@ import { Leaf, Heart, Scale, Activity } from "lucide-react";
 
 export function EbookLearningSection() {
   return (
-    <section className="bg-lime-50 py-16 px-6 text-center">
-      <h2 className="text-3xl font-bold text-gray-900 mb-10">
-        <span className="text-blue-500">🐾</span> O que você vai aprender neste eBook
+    <section className="bg-lime-50 px-6 text-center py-8 md:py-16">
+      <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-10">
+        <span className="text-black"
+        data-aos="zoom-in"
+        >🐾
+         O que você vai aprender neste eBook
+         </span>
       </h2>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">

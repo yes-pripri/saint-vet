@@ -36,15 +36,16 @@ export function EbookFAQSection() {
   };
 
   return (
-    <section className="bg-[#FAFAF5] py-20 px-6">
+    <section className="bg-lime-50 py-20 px-6">
       <div className="max-w-3xl mx-auto">
-        {/* Título */}
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10 flex items-center justify-center gap-2 text-gray-900">
+        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10 flex items-center 
+        justify-center gap-2 text-gray-900"
+        data-aos="zoom-in"
+        >
           <MessageCircleQuestion className="w-7 h-7 text-gray-800" />
           Perguntas Frequentes
         </h2>
 
-        {/* Lista de FAQs */}
         <div className="space-y-3">
           {faqs.map((faq, index) => (
             <div

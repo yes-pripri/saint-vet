@@ -5,19 +5,23 @@ import nicoleImg from "../../public/nicole.png"
 
 export function EbookDifferenceSection() {
   return (
-    <section className="bg-lime-50 py-16 px-6 flex flex-col lg:flex-row items-center justify-center gap-10">
+    <section className="bg-lime-50 px-6 flex flex-col lg:flex-row items-center 
+    justify-center gap-10 py-8 md:py-16">
       <div className="flex-shrink-0">
         <Image
           src="/nicole.png"
           alt="Foto da autora"
           width={280}
           height={280}
-          className="rounded-2xl shadow-lg object-cover"
+          className="rounded-full w-50 h-50 object-cover object-[50%_25%] mx-auto shadow-md lg:rounded-2xl lg:w-[350px] lg:h-[450px] lg:object-center "
         />
       </div>
 
       <div className="max-w-2xl">
-        <h2 className="text-black text-2xl md:text-3xl font-semibold text-center lg:text-left mb-8 flex items-center justify-center lg:justify-start gap-2">
+        <h2 className="text-black text-2xl md:text-3xl font-semibold text-center lg:text-left 
+        mb-8 flex items-center justify-center lg:justify-start gap-2"
+        data-aos="zoom-in"
+        >
           💎 Por que este eBook é diferente
         </h2>
 
@@ -50,7 +54,7 @@ export function EbookDifferenceSection() {
         </div>
 
         <p className="text-green-800 font-medium text-center lg:text-left mt-8">
-          Este não é "mais um eBook" — é um guia de transformação para quem acredita em um cuidado
+          Este não é "mais um eBook" é um guia de transformação para quem acredita em um cuidado
           mais natural, consciente e baseado em evidências.
         </p>
       </div>

@@ -4,8 +4,10 @@ import { BookOpen, Video, Award } from "lucide-react";
 
 export function EbookBonusSection() {
   return (
-    <section className="bg-lime-50 py-16 px-6 text-center">
-      <h2 className="text-3xl font-bold text-gray-900 mb-2">
+    <section className="bg-lime-50 px-4 text-center py-6 md:py-10">
+      <h2 className="text-2xl md:text-3xl font-semibold text-gray-900 mb-2"
+      data-aos="zoom-in"
+      >
         🎁 Bônus Exclusivos
       </h2>
       <p className="text-gray-600 mb-10">

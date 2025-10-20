@@ -6,7 +6,6 @@ import ebookImg from "../../public/ebook.jpg"
 export function EbookSection() {
   return (
     <section className="bg-[#E6FAF0] py-16 px-6 flex flex-col lg:flex-row items-center justify-center gap-12">
-      {/* Texto à esquerda */}
       <div className="flex-1 text-center lg:text-left max-w-2xl">
         <p className="text-gray-600 mb-3">
           Pensando nisso, a{" "}
@@ -23,14 +22,15 @@ export function EbookSection() {
         </p>
       </div>
 
-      {/* Imagem à direita */}
       <div className="flex-shrink-0">
         <Image
           src="/ebook.jpg"
           alt="Capa do eBook Descomplicando a Terapia Canábica"
           width={280}
           height={280}
+          priority
           className="rounded-2xl shadow-lg object-cover"
+          data-aos="flip-right"
         />
       </div>
     </section>

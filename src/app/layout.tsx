@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Poppins } from "next/font/google";
 import "./globals.css";
+import { AosInit } from "./aos-init";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -30,7 +31,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-BR" className={poppins.variable}>
-      <body className="font-sans">{children}</body>
+      <body className="font-sans">
+        {children}
+        <AosInit />
+      </body>
     </html>
   );
 }

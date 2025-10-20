@@ -4,9 +4,12 @@ import { Circle } from "lucide-react";
 export default function CannabisSection() {
   return (
     <section className="bg-lime-50 text-green-800 py-20 px-6 flex flex-col items-center text-center">
-      <h1 className="text-3xl md:text-5xl font-extrabold max-w-4xl leading-snug">
+      <h1 className="text-3xl md:text-5xl font-extrabold max-w-4xl leading-snug"
+      data-aos="fade-left"
+      >
         A cannabis medicinal é uma das descobertas mais{" "}
-        <span className="text-green-600">promissoras dos últimos anos</span>
+        <span className="text-green-600">promissoras dos últimos anos
+        </span>
       </h1>
 
       <p className="text-gray-600 mt-6 max-w-3xl">
@@ -14,7 +17,7 @@ export default function CannabisSection() {
         inflamações, e muito mais.
       </p>
 
-      <div className="mt-10 bg-green-100 border border-green-800 rounded-xl p-8 max-w-4xl w-full">
+      <div className="mt-10 bg-green-50 border border-green-800 rounded-xl p-8 max-w-4xl w-full">
         <h2 className="text-xl font-semibold mb-6">
           Mas junto com o interesse, vieram as dúvidas:
         </h2>
