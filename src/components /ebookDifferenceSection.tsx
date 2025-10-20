@@ -5,7 +5,7 @@ import nicoleImg from "../../public/nicole.png"
 
 export function EbookDifferenceSection() {
   return (
-    <section className="bg-lime-50 px-6 flex flex-col lg:flex-row items-center 
+    <section className="bg-[#edf2e8] px-6 flex flex-col lg:flex-row items-center 
     justify-center gap-10 py-8 md:py-16">
       <div className="flex-shrink-0">
         <Image
@@ -18,7 +18,9 @@ export function EbookDifferenceSection() {
       </div>
 
       <div className="max-w-2xl">
-        <h2 className="text-black text-2xl md:text-3xl font-semibold text-center lg:text-left 
+        <h2 
+        style={{ fontFamily: "Playfair Display, serif" }}
+        className="text-black text-2xl md:text-3xl font-extrabold text-center lg:text-left 
         mb-8 flex items-center justify-center lg:justify-start gap-2"
         data-aos="zoom-in"
         >
@@ -29,13 +31,13 @@ export function EbookDifferenceSection() {
           {[
             {
               bold: "Escrito pela Dra. Nicoli Benedito,",
-              text: "médica veterinária endocanabinologista e fundadora da Saint Veterinária, referência nacional em medicina integrativa e cannabis veterinária.",
+              text: "médica veterinária endocanabinologista e fundadora da Saint Veterinária.",
             },
             {
               text: "Conteúdo baseado em ciência e prática clínica real.",
             },
             {
-              text: "Linguagem simples, didática e direta — feita para tutores e profissionais.",
+              text: "Linguagem simples, didática e direta, feita para tutores e profissionais.",
             },
             {
               text: "Material ético, confiável e seguro, que separa fatos de mitos.",
@@ -53,7 +55,7 @@ export function EbookDifferenceSection() {
           ))}
         </div>
 
-        <p className="text-green-800 font-medium text-center lg:text-left mt-8">
+        <p className="text-[#36612c] font-medium text-center lg:text-left mt-8">
           Este não é "mais um eBook" é um guia de transformação para quem acredita em um cuidado
           mais natural, consciente e baseado em evidências.
         </p>

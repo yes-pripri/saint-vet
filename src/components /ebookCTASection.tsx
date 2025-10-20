@@ -7,7 +7,7 @@ import { Cannabis } from "lucide-react";
 export function EbookCTASection() {
       return (
     <>
-      <section className="bg-green-900 text-white flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20 py-16">
+      <section className="bg-[#5c6c34] text-white flex flex-col lg:flex-row items-center justify-between px-6 lg:px-20 py-16">
         <div className="flex-shrink-0 mb-10 lg:mb-0 lg:w-1/2 flex justify-center">
           <Image
             src="/saintvet.png"
@@ -20,7 +20,9 @@ export function EbookCTASection() {
         </div>
 
         <div className="text-center lg:text-left lg:w-1/2">
-          <h2 className="text-3xl lg:text-4xl font-bold mb-4 flex items-center justify-center lg:justify-start">
+          <h2 
+          style={{ fontFamily: "Playfair Display, serif" }}
+          className="text-3xl lg:text-4xl font-extrabold mb-4 flex items-center justify-center lg:justify-start">
                 🌱 O futuro da medicina veterinária é verde.
           </h2>
           <p className="text-lg mb-6">
@@ -30,14 +32,14 @@ export function EbookCTASection() {
           <a
             target="_blank"
             href={`https://home.ganza.app/products/descomplicando-a-terapia-canabica-para-caes-e-gatos-do-tabu-ao-tratamento `}
-            className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-5 rounded-lg transition"
+            className="bg-lime-400 hover:bg-lime-500 text-black font-semibold py-3 px-5 rounded-lg transition"
           >
-            Garanta o seu agora R$89,00
+            GARANTA O SEU AGORA
           </a>
         </div>
       </section>
 
-      <footer className="bg-lime-50 text-center py-4 text-sm text-gray-700">
+      <footer className="bg-[#edf2e8] text-center py-4 text-sm text-gray-700">
         © 2025 Saint Veterinária. Todos os direitos reservados.
         <br />
         Medicina integrativa e cannabis veterinária de excelência.

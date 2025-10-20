@@ -36,9 +36,11 @@ export function EbookFAQSection() {
   };
 
   return (
-    <section className="bg-lime-50 py-20 px-6">
+    <section className="bg-[#edf2e8] py-20 px-6">
       <div className="max-w-3xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-semibold text-center mb-10 flex items-center 
+        <h2 
+        style={{ fontFamily: "Playfair Display, serif" }}
+        className="text-2xl md:text-3xl font-extrabold text-center mb-10 flex items-center 
         justify-center gap-2 text-gray-900"
         data-aos="zoom-in"
         >

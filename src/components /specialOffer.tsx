@@ -4,14 +4,16 @@ import { Clock, CheckCircle2, BadgeCheck, Sparkles, Video, ScrollText, MonitorSm
 
 export function SpecialOffer() {
   return (
-    <section className="min-h-screen flex flex-col items-center justify-center bg-lime-50 text-white px-4 py-16">
-      <h2 className="text-xl md:text-3xl font-semibold flex items-center gap-2 text-black mb-8"
+    <section className="min-h-screen flex flex-col items-center justify-center bg-[#edf2e8] text-white px-4 py-16">
+      <h2 
+      style={{ fontFamily: "Playfair Display, serif" }}
+      className="text-xl md:text-3xl font-extrabold flex items-center gap-2 text-black mb-8"
       data-aos="zoom-in"
       >
         <span>💰</span> Oferta Especial de Lançamento
       </h2>
 
-      <div className="border border-yellow-600 bg-white rounded-xl p-6 sm:p-8 w-11/12 sm:w-full max-w-xl text-center shadow-lg">
+      <div className="border-6 border-lime-500 bg-white rounded-xl p-6 sm:p-8 w-11/12 sm:w-full max-w-xl text-center shadow-xl">
         <p className="flex items-center justify-center text-sm text-black mb-6">
           <Clock className="w-4 h-4 mr-2 text-black" />
           Oferta válida somente até domingo, <span className="font-semibold text-black ml-1">24/10, às 23h59</span>
@@ -19,13 +21,13 @@ export function SpecialOffer() {
 
         <div className="mb-6">
           <p className="text-white line-through text-lg">De R$129,00</p>
-          <p className="text-4xl font-bold text-green-700">R$89,00</p>
+          <p className="text-4xl font-bold text-lime-500">R$87,00</p>
           <p className="mt-2 text-gray-500 flex items-center justify-center gap-1">
-            💸 Economize R$40,00 + R$175,00 em bônus exclusivos
+            💸 Economize R$42,00 + R$175,00 em bônus exclusivos
           </p>
         </div>
 
-        <div className="bg-lime-100 rounded-lg p-6 text-left mb-8 space-y-3">
+        <div className="bg-[#edf2e8] rounded-lg p-6 text-left mb-8 space-y-3">
           <h3 className="text-center font-semibold mb-4 text-black">
             O que está incluso:
           </h3>
@@ -60,8 +62,8 @@ export function SpecialOffer() {
         <a
         target="_blank"
         href={`https://home.ganza.app/products/descomplicando-a-terapia-canabica-para-caes-e-gatos-do-tabu-ao-tratamento `}
-        className="w-full bg-yellow-400 hover:bg-yellow-500 text-black font-semibold py-3 px-5 rounded-lg transition-all">
-          COMPRAR AGORA R$89,00
+        className="w-full bg-lime-400 hover:bg-lime-500 text-black font-semibold py-3 px-5 rounded-lg transition-all">
+          COMPRE JÁ POR R$87,00
         
         </a>
 

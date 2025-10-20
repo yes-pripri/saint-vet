@@ -3,12 +3,14 @@ import { Circle } from "lucide-react";
 
 export default function CannabisSection() {
   return (
-    <section className="bg-lime-50 text-green-800 py-20 px-6 flex flex-col items-center text-center">
-      <h1 className="text-3xl md:text-5xl font-extrabold max-w-4xl leading-snug"
+    <section className="bg-[#edf2e8] text-[#36612c] py-20 px-6 flex flex-col items-center text-center">
+      <h1 
+      style={{ fontFamily: "Playfair Display, serif" }}
+      className="text-3xl md:text-5xl font-extrabold max-w-4xl leading-snug"
       data-aos="fade-left"
       >
         A cannabis medicinal é uma das descobertas mais{" "}
-        <span className="text-green-600">promissoras dos últimos anos
+        <span className="text-[#9aaa6c]">promissoras dos últimos anos
         </span>
       </h1>
 
@@ -25,22 +27,22 @@ export default function CannabisSection() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-4 text-left text-black">
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
-              <Circle className="w-3 h-3 text-green-400 fill-green-400" />
+              <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
               É seguro?
             </li>
             <li className="flex items-center gap-2">
-              <Circle className="w-3 h-3 text-green-400 fill-green-400" />
+              <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
               Qual a dosagem?
             </li>
           </ul>
 
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
-              <Circle className="w-3 h-3 text-green-400 fill-green-400" />
+              <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
               Quando usar CBD ou THC?
             </li>
             <li className="flex items-center gap-2">
-              <Circle className="w-3 h-3 text-green-400 fill-green-400" />
+              <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
               É legalizado?
             </li>
           </ul>
