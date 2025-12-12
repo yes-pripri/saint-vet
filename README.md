@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐾 Saint-Vet – Integrative Veterinary Medicine & Medicinal Cannabis for Pets
 
-## Getting Started
+Saint-Vet is a web platform that offers educational content and resources about integrative veterinary medicine — with a focus on medicinal cannabis for pets (dogs and cats).  
+The site aims to inform pet owners and veterinary professionals about the therapeutic potential, safe usage, legal-ethical aspects, and scientific basis of cannabis-based treatments in veterinary practice.
 
-First, run the development server:
+### What you’ll find:
+- Educational materials on endocannabinoid system and cannabis therapeutics for pets  
+- Practical guidelines for safe, ethical and evidence-based use  
+- Legal and regulatory considerations for veterinary cannabis  
+- Case studies and examples of clinical applications  
+- Digital product sales (e.g. ebook) and access to exclusive content
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+🔗 Live Website: https://saint-vet.vercel.app
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+ ## ✨ Preview
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<img width="1344" height="634" alt="Screenshot" src="https://github.com/user-attachments/assets/115eaac8-7c7e-4239-8ec1-3bab00e6ee75" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠️ Technologies Used
 
-## Learn More
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Vercel](https://vercel.com/) for deployment
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎯 Project Purpose
 
-## Deploy on Vercel
+This landing page was built to professionally represent Saint-Vet and provide:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Clear communication of services and specializations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Educational sections on integrative veterinary medicine
+
+- A trustworthy and modern user experience
+
+- Fast loading performance and SEO optimization
+
+- Consistent branding for digital presence
+
+
+##  📄 Contribution Guidelines
+
+This is a company-owned proprietary project.
+External contributions are not allowed, unless explicitly authorized.
+
+Authorized Contributors Must:
+
+- Create a feature branch
+- Follow internal coding standards
+- Submit a Pull Request including:
+   - Description of changes
+   - Reason for the update
+   - Screenshots (if applicable)
+
+Prohibited Actions:
+
+- Forking for public use
+- Sharing code externally
+- Using this codebase for AI training
+
+For access or exception requests, contact the Saint-Vet leadership.
+
+## 📄 Security Policy
+Supported Versions
+
+Only the most recent production release receives security updates.
+Reporting a vulnerability do not open a public issue.
+Instead, report privately via the official Saint-Vet communication channels and include:
+
+Description
+
+- Steps to reproduce
+- Potential impact
+
+We appreciate responsible disclosure.
+
+## 📄 License
+Proprietary License – All Rights Reserved
+
+Copyright © 2025 Saint-Vet
+
+This project is the exclusive intellectual property of Saint-Vet.
+Any of the following actions are prohibited without explicit written permission:
+
+- Copying
+
+- Modifying
+
+- Redistributing
+
+- Commercial use
+
+- Reverse engineering
+
+- Using in datasets or training models
+
+For licensing inquiries, contact the company directly.
+
+## ⭐️ If you liked it, don’t forget to give it a star!
