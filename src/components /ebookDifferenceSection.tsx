@@ -37,7 +37,7 @@ export function EbookDifferenceSection() {
               text: "Conteúdo baseado em ciência e prática clínica real.",
             },
             {
-              text: "Linguagem simples, didática e direta, feita para tutores e profissionais.",
+              text: "Linguagem simples, didática e direta, feita para responsáveis e profissionais.",
             },
             {
               text: "Material ético, confiável e seguro, que separa fatos de mitos.",

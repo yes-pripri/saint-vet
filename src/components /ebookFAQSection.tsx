@@ -12,7 +12,7 @@ export function EbookFAQSection() {
     {
       question: "1. Preciso ser veterinário para ler o eBook?",
       answer:
-        "Não! O conteúdo é acessível para tutores, estudantes e profissionais que queiram entender o uso da cannabis de forma segura.",
+        "Não! O conteúdo é acessível para responsáveis, estudantes e profissionais que queiram entender o uso da cannabis de forma segura.",
     },
     {
       question: "2. É legal usar cannabis em pets?",
@@ -22,7 +22,7 @@ export function EbookFAQSection() {
     {
       question: "3. Recebo o material na hora?",
       answer:
-        "Sim! Após a compra você recebe acesso imediato ao eBook e aos bônus pelo seu e-mail cadastrado.",
+        "Sim! Após a compra você recebe acesso imediato pelo login e senha cadastrados no site de venda GanzaApp.",
     },
     {
       question: "4. Posso ler no celular ou tablet?",

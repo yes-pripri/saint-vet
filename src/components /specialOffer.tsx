@@ -16,7 +16,7 @@ export function SpecialOffer() {
       <div className="border-6 border-lime-500 bg-white rounded-xl p-6 sm:p-8 w-11/12 sm:w-full max-w-xl text-center shadow-xl">
         <p className="flex items-center justify-center text-sm text-black mb-6">
           <Clock className="w-4 h-4 mr-2 text-black" />
-          Oferta válida somente até domingo, <span className="font-semibold text-black ml-1">24/10, às 23h59</span>
+          Oferta válida somente até hoje <span className="font-semibold text-black ml-1"></span>
         </p>
 
         <div className="mb-6">
@@ -34,7 +34,7 @@ export function SpecialOffer() {
           <ul className="space-y-3 text-gray-500">
             <li className="flex items-start gap-2">
               <CheckCircle2 className="text-gray-500 mt-0.5" />
-              eBook completo (mais de 100 páginas)
+              eBook completo (mais de 90 páginas)
             </li>
             <li className="flex items-start gap-2">
               <Sparkles className="text-gray-500 mt-0.5" />

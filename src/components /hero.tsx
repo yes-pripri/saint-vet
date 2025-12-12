@@ -26,7 +26,7 @@ export function Hero() {
         </h1>
 
         <p className="text-gray-600 mt-6 mb-6 leading-relaxed">
-          A veterinária está evoluindo. Cada vez mais tutores e profissionais
+          A veterinária está evoluindo. Cada vez mais responsáveis e profissionais
           buscam terapias naturais, seguras e eficazes para melhorar a qualidade
           de vida dos pets.
         </p>

@@ -19,14 +19,14 @@ export function EbookSection() {
         </h2>
 
         <p className="text-gray-700 text-lg leading-relaxed mb-5">
-          Um eBook feito para tutores e profissionais que querem aplicar a
+          Um eBook feito para responsáveis e profissionais que querem aplicar a
           cannabis medicinal de forma ética, segura e baseada em evidências.
         </p>
          <a
           target="_blank"
           href={`https://drive.google.com/file/d/1CZTvWk3ijFRZfnsXNJmtkhMRhdU8lXCb/view?usp=sharing `}
           className="bottom-6 left-6 bg-lime-400 text-black font-bold px-6 py-2 rounded-md shadow-md hover:bg-lime-500 transition">
-            BAIXAR PRÉVIA GRATUIRA
+            BAIXAR PRÉVIA GRATUITA
         </a>
 
       </div>

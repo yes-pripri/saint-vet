@@ -28,11 +28,15 @@ export default function CannabisSection() {
           <ul className="space-y-3">
             <li className="flex items-center gap-2">
               <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
-              É seguro?
+              É um tratamento seguro?
             </li>
             <li className="flex items-center gap-2">
               <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
-              Qual a dosagem?
+              É tóxico para cães e gatos?
+            </li>
+            <li className="flex items-center gap-2">
+              <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
+              Qual a dosagem correta?
             </li>
           </ul>
 
@@ -43,7 +47,7 @@ export default function CannabisSection() {
             </li>
             <li className="flex items-center gap-2">
               <Circle className="w-3 h-3 text-[#9aaa6c] fill-[#9aaa6c]" />
-              É legalizado?
+              É legalizado e regulamentado?
             </li>
           </ul>
         </div>
