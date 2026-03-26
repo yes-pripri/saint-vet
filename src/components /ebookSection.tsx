@@ -24,7 +24,7 @@ export function EbookSection() {
         </p>
          <a
           target="_blank"
-          href={`https://drive.google.com/file/d/1CZTvWk3ijFRZfnsXNJmtkhMRhdU8lXCb/view?usp=sharing `}
+          href={` https://drive.google.com/file/d/1OKdvdh5POmJDoWPyrwVrmAUBBYtsk89d/view `}
           className="bottom-6 left-6 bg-lime-400 text-black font-bold px-6 py-2 rounded-md shadow-md hover:bg-lime-500 transition">
             BAIXAR PRÉVIA GRATUITA
         </a>
